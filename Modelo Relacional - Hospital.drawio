@@ -40,9 +40,6 @@
             <mxPoint x="450" y="270" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rAvilJ_ywPzz6KZA07hI-14" value="(1:1)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="360" y="220" width="60" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="rAvilJ_ywPzz6KZA07hI-15" value="(0:n)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="360" y="370" width="60" height="30" as="geometry" />
         </mxCell>

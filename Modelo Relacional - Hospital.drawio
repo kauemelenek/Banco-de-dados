@@ -7,8 +7,8 @@
         <mxCell id="rAvilJ_ywPzz6KZA07hI-1" value="&lt;b&gt;Medico&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="280" y="80" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="rAvilJ_ywPzz6KZA07hI-2" value="&lt;div style=&quot;&quot;&gt;&lt;u style=&quot;background-color: initial;&quot;&gt;CRM &lt;/u&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;varchar (18) (PK)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;especialidade varchar (50)&lt;/div&gt;&lt;div style=&quot;&quot;&gt;nome varchar (50)&lt;/div&gt;&lt;div style=&quot;&quot;&gt;email varchar (60)&lt;/div&gt;&lt;div style=&quot;&quot;&gt;telefone varchar (15)&lt;/div&gt;&lt;div style=&quot;&quot;&gt;endereço varchar (100)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="280" y="120" width="160" height="100" as="geometry" />
+        <mxCell id="rAvilJ_ywPzz6KZA07hI-2" value="&lt;div style=&quot;&quot;&gt;&lt;u style=&quot;background-color: initial;&quot;&gt;CRM &lt;/u&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;varchar (18) (PK)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;especialidade varchar (50)&lt;/div&gt;&lt;div style=&quot;&quot;&gt;nome varchar (50)&lt;/div&gt;&lt;div style=&quot;&quot;&gt;email varchar (60)&lt;/div&gt;&lt;div style=&quot;&quot;&gt;telefone varchar (15)&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;div&gt;rua varchar (50)&lt;/div&gt;&lt;div&gt;numero int&lt;/div&gt;&lt;div&gt;complemento (30)&lt;/div&gt;&lt;div&gt;bairro (20)&lt;/div&gt;&lt;div&gt;CEP varchar (15)&lt;/div&gt;&lt;div&gt;cidade varchar (20)&lt;/div&gt;&lt;div&gt;estado varchar (15)&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="280" y="120" width="160" height="180" as="geometry" />
         </mxCell>
         <mxCell id="rAvilJ_ywPzz6KZA07hI-3" value="&lt;b&gt;Consulta&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="650" y="80" width="160" height="40" as="geometry" />
@@ -45,6 +45,12 @@
         </mxCell>
         <mxCell id="rAvilJ_ywPzz6KZA07hI-15" value="(1:n)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="360" y="360" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rAvilJ_ywPzz6KZA07hI-16" value="&lt;b&gt;Paciente&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="390" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rAvilJ_ywPzz6KZA07hI-17" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;u&gt;CPF&lt;/u&gt;&amp;nbsp;varchar (14)&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;(PK)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;nome varchar (50)&lt;/div&gt;&lt;div style=&quot;&quot;&gt;telefone varchar (15)&lt;/div&gt;&lt;div style=&quot;&quot;&gt;email varchar (60)&lt;/div&gt;&lt;div style=&quot;&quot;&gt;rua varchar (50)&lt;/div&gt;&lt;div style=&quot;&quot;&gt;numero int&lt;/div&gt;&lt;div style=&quot;&quot;&gt;complemento (30)&lt;/div&gt;&lt;div style=&quot;&quot;&gt;bairro (20)&lt;/div&gt;&lt;div style=&quot;&quot;&gt;CEP varchar (15)&lt;/div&gt;&lt;div style=&quot;&quot;&gt;cidade varchar (20)&lt;/div&gt;&lt;div style=&quot;&quot;&gt;estado varchar (15)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="630" y="430" width="200" height="170" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

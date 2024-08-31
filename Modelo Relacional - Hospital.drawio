@@ -1,9 +1,51 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 OPR/112.0.0.0" version="24.7.7">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 OPR/112.0.0.0" version="24.7.8">
   <diagram name="Page-1" id="HAe-UX_IYEYiSjkh68OM">
-    <mxGraphModel>
+    <mxGraphModel dx="433" dy="760" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="rAvilJ_ywPzz6KZA07hI-1" value="&lt;b&gt;Medico&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="80" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rAvilJ_ywPzz6KZA07hI-2" value="&lt;div style=&quot;&quot;&gt;&lt;u style=&quot;background-color: initial;&quot;&gt;CRM &lt;/u&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;varchar (18) (PK)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;especialidade varchar (50)&lt;/div&gt;&lt;div style=&quot;&quot;&gt;nome varchar (50)&lt;/div&gt;&lt;div style=&quot;&quot;&gt;email varchar (60)&lt;/div&gt;&lt;div style=&quot;&quot;&gt;telefone varchar (15)&lt;/div&gt;&lt;div style=&quot;&quot;&gt;endereço varchar (100)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="280" y="120" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="rAvilJ_ywPzz6KZA07hI-3" value="&lt;b&gt;Consulta&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="80" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rAvilJ_ywPzz6KZA07hI-4" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;u&gt;IdConsulta&lt;/u&gt;&amp;nbsp;int (PK)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;CPF varchar (14) (FK)&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;CRM varchar (18) (FK)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;data&amp;nbsp; yyyy/m/d&lt;/div&gt;&lt;div style=&quot;&quot;&gt;horário time&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="650" y="120" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="rAvilJ_ywPzz6KZA07hI-6" value="" style="endArrow=none;html=1;rounded=0;entryX=-0.019;entryY=0.39;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.013;exitY=0.39;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="rAvilJ_ywPzz6KZA07hI-2" target="rAvilJ_ywPzz6KZA07hI-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="580" y="320" as="sourcePoint" />
+            <mxPoint x="630" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rAvilJ_ywPzz6KZA07hI-7" value="(1:1)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="430" y="130" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rAvilJ_ywPzz6KZA07hI-8" value="(1:n)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="590" y="130" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rAvilJ_ywPzz6KZA07hI-11" value="&lt;b&gt;Convenio&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="390" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rAvilJ_ywPzz6KZA07hI-12" value="&lt;div style=&quot;&quot;&gt;&lt;u style=&quot;background-color: initial;&quot;&gt;IdConvenio&lt;/u&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;int&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;(PK)&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;empresa varchar (50)&lt;/div&gt;&lt;div style=&quot;&quot;&gt;tipo varchar (50)&lt;/div&gt;&lt;div style=&quot;&quot;&gt;vencimento varchar (60)&lt;/div&gt;&lt;div style=&quot;&quot;&gt;percentualDeCoparticipacao float&lt;/div&gt;&lt;div style=&quot;&quot;&gt;CPF varchar (14) (FK)&lt;/div&gt;&lt;div style=&quot;&quot;&gt;CRM varchar (18) (FK)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="260" y="430" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="rAvilJ_ywPzz6KZA07hI-13" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="rAvilJ_ywPzz6KZA07hI-11" target="rAvilJ_ywPzz6KZA07hI-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="320" as="sourcePoint" />
+            <mxPoint x="450" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rAvilJ_ywPzz6KZA07hI-14" value="(1:1)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="220" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rAvilJ_ywPzz6KZA07hI-15" value="(1:n)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="360" width="60" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
